@@ -1,7 +1,12 @@
+
+
 .App {
   text-align: center;
+  background-color:rgb(3, 20, 45);
 }
-
+.font{
+  font-family: 'Roboto';
+}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
@@ -18,7 +23,9 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+Col{
+  background-color: aquamarine;
+}
 .App-link {
   color: #61dafb;
 }

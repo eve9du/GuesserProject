@@ -1,0 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.search{
+    background-color:	rgb(100, 185, 178); 
+    border: none;
+    color: white;
+    margin-left:1%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-family: Futura;
+  
+  }
+  .answer{
+    border: 2px solid rgb(220,220,220);
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box; 
+    z-index: 3; 
+    height: 40px; 
+    border-radius: 3px; 
+    font-family: Futura;
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+    padding: 0px 10px;
+    width: 70%; 
+  }
+  .table div.row:nth-child(even){
+    background-color:rgb(232, 234, 239)
+  }
+  .table div.row:nth-child(odd){
+    background-color: rgb(247, 249, 252);
+  }
+  .table{
+    border: 10px solid rgb(247, 249, 252);
+  }
